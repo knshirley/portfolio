@@ -9,10 +9,18 @@
         <title>Karol &bull; Tinsley</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/normalize.css">
-        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/main.css">
-        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/style.css">
-        <script src="<?php echo SITE_ROOT;?>/includes/js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/normalize.css" />
+        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/main.css" />
+        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/style.css" />
+        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/lightbox.css" />
+        <link rel="stylesheet" href="<?php echo SITE_ROOT;?>/includes/css/jquery-ui-1.9.2.custom.min.css" />
+
+        <script src="<?php echo SITE_ROOT;?>/includes/js/vendor/modernizr-2.6.2.min.js"></script>        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php echo SITE_ROOT;?>/includes/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="<?php echo SITE_ROOT;?>/includes/js/jquery-ui-1.9.2.custom.min.js"></script>        
+        <script src="<?php echo SITE_ROOT;?>/includes/js/plugins.js"></script>
+        <script src="<?php echo SITE_ROOT;?>/includes/js/lightbox.js"></script>
     </head>
     <body id="<?php echo $data['currentPage'];?>">
 
@@ -23,8 +31,8 @@
                 <nav>
                     <ul>
                         <li><a href="<?php echo SITE_ROOT;?>/resume" id="nav-resume">Resume</a></li>
-                        <li><a href="<?php echo SITE_ROOT;?>/designs" id="nav-designs">Designs</a></li>
                         <li><a href="<?php echo SITE_ROOT;?>/projects" id="nav-projects">Projects</a></li>
+                        <li><a href="http://onlyakiss.net" id="nav-blog" target="_blank">Blog</a></li>
                         <li><a href="<?php echo SITE_ROOT;?>/contact" id="nav-contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -36,11 +44,6 @@
             </div>
         </div>
 
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="<?php echo SITE_ROOT;?>/includes/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="<?php echo SITE_ROOT;?>/includes/js/plugins.js"></script>
-        <script src="<?php echo SITE_ROOT;?>/includes/js/main.js"></script>
 
         </body>
 </html>

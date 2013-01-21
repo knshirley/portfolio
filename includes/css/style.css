@@ -1,4 +1,4 @@
-body, h1, h2, article, section{
+body, h1, h2, h3{
     margin: 0;
     padding: 0;
 }
@@ -29,6 +29,8 @@ body, h1, h2, article, section{
 body{
     background: #fdfffe url('../img/top-border.jpg') repeat-x;
     color: #282828;
+    text-align: justify;
+    font: normal normal 16px Calibri, Arial, sans-serif;
 }
 
 #wrapper{
@@ -36,6 +38,10 @@ body{
     margin: 12px auto 0 auto;
     width: 1000px;
 }
+
+.center{ text-align: center; }
+.right { text-align: right; }
+.left { text-aagin: left; }
 
 /* HEADER
 ------------------------------------------------------------------------------*/
@@ -76,8 +82,8 @@ nav ul li a:hover#nav-resume, body#resume nav ul li a#nav-resume{
     color: #ce1da6;
 }
 
-/* Designs */
-nav ul li a:hover#nav-designs, body#designs nav ul li a#nav-designs{
+/* About */
+nav ul li a:hover#nav-blog, body#blog nav ul li a#nav-blog{
     color: #1d89ce;
 }
 
@@ -91,9 +97,105 @@ nav ul li a:hover#nav-contact, body#contact nav ul li a#nav-contact{
     color: #1c9d86;
 }
 
-
 /* CONTENT
 ------------------------------------------------------------------------------*/
+h2{
+    font: normal normal 26px Calibri, Arial, sans-serif;
+}
+
+h3{
+    font: normal normal 20px Calibri, Arial, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+img{
+    border: solid 1px #d3d3d3;
+}
+
+#network img{
+    margin: 10px;
+}
+
+a, a:link, a:visited, a:active{
+    color: #0d6eb2;
+}
+
+a:hover{
+    color: #165078;
+}
+
 #content{
     clear: both;
 }
+
+.job em, .project em{
+    float: right;
+}
+
+.job-description, .project-description{
+    clear: both;
+}
+
+
+ul{
+    margin: 0;
+}
+
+.project-images{
+    text-align: center;
+}
+
+.project-images a, .project-images a:link, .project-images a:visited, .project-images a:active, .project-images a:hover{
+    text-decoration: none;
+}
+
+aside{
+    font-size: 11px;
+    color: gray;
+}
+
+
+#contactForm label{
+	width: 100px;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contactForm input[type=text], #contact input[type=email], #contactForm textarea{	
+	width: 300px;
+
+	padding: 6px 5px 6px 5px;	
+	margin: 3px;
+	
+	border: solid 1px #d3d3d3;
+	border-radius: 4px;
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */	
+}
+
+#contactForm textarea{
+	width: 480px;
+	height: 150px;
+}
+
+#messageStatus{
+    margin: 0 auto 0 auto;
+	width: 220px;
+	height: 20px;
+		
+	padding: 10px;
+	text-align: center;
+	background: #d4e8c6;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */		
+	box-shadow: 0px 0px 10px #d4e8c6;
+	
+	display: none;
+}
+
+#messageSent, #messageError{ display: none; }
