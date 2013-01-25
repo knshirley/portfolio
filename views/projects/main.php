@@ -96,12 +96,19 @@
     <div>
         <br/>
          <div class="project-images">
-            <a href="<?php echo SITE_ROOT;?>/includes/img/projects/xlib.png" rel="lightbox" title="">
-                <img src="<?php echo SITE_ROOT;?>/includes/img/projects/thumbs/xlib.png">
+            <a href="<?php echo SITE_ROOT;?>/includes/img/projects/xlib-1.png" rel="lightbox[xlib]" title="">
+                <img src="<?php echo SITE_ROOT;?>/includes/img/projects/thumbs/xlib-1.png">
+            </a>
+            <a href="<?php echo SITE_ROOT;?>/includes/img/projects/xlib-2.png" rel="lightbox[xlib]" title="">
+                <img src="<?php echo SITE_ROOT;?>/includes/img/projects/thumbs/xlib-2.png">
+            </a>
+            <a href="<?php echo SITE_ROOT;?>/includes/img/projects/xlib-3.png" rel="lightbox[xlib]" title="">
+                <img src="<?php echo SITE_ROOT;?>/includes/img/projects/thumbs/xlib-3.png">
             </a>
         </div>
 
-        <p>A side scrolling videogame written in C++ using Xlib and the X11 Pixmap library. The player controls a helicopter that moves independently of the side scrolling, and shoots bombs at missile launchers/missiles for points. The games graphics were all designed by myself using Photoshop and the helicopter is actually based off one of my father's RC helicopters.</p>
+        <p>A side scrolling videogame written in C++ using Xlib and the X11 Pixmap library. The player controls a helicopter that moves independently of the side scrolling, and shoots bombs at missile launchers/missiles for points. The game also includes a level system with 3 built in levels, and a health system for collisions. </p>
+        <p>The games graphics were all designed by myself using Photoshop and the helicopter is actually based off one of my father's RC helicopters.</p>
         <p><aside>(Source is omitted since this project was completed just this term)</aside></p>
     </div>
 
@@ -123,3 +130,5 @@
         <p>A fully object oriented C++ program that emulates the card game Straights using the command-line. The game contains two playable versions (Regular and Alternative), and can be played with 0-4 computer players. This game was done in a group of 2.</p>
     </div>
 </div>
+
+<br/><br/>
