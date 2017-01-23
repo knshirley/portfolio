@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'shorelines';
+    src: url('../fonts/shorelines.eot');
+    src: url('../fonts/shorelines.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/shorelines.woff2') format('woff2'),
+         url('../fonts/shorelines.woff') format('woff'),
+         url('../fonts/shorelines.ttf') format('truetype'),
+         url('../fonts/shorelines.svg#shorelines') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'moon_flower';
+    src: url('../fonts/moon_flower.eot');
+    src: url('../fonts/moon_flower.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moon_flower.woff2') format('woff2'),
+         url('../fonts/moon_flower.woff') format('woff'),
+         url('../fonts/moon_flower.ttf') format('truetype'),
+         url('../fonts/moon_flower.svg#moon_flower') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header{
+		background-size: auto, auto 130%;
+}
+
+	#sidebar ul li {
+		list-style: none;
+		font-size: 1.75em;
+		line-height: 1.9em;
+	}
+
+#sidebar ul li a,
+	#sidebar ul li a a:visited {
+		color: #ffffff;
+        font-family:'moon_flower';
+		text-decoration: none;
+	}
+
+    #header h1{
+        font-family: 'shorelines';
+        color: #ffffff;
+    }
