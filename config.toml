@@ -1,6 +1,6 @@
-baseurl = "http://karoltinsley.com/"
+baseurl = "http://karolshirley.com/"
 languageCode = "en-us"
-title = "Karol Tinsley // Portfolio"
+title = "Karol Shirley // Portfolio"
 theme = ""
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -9,43 +9,35 @@ googleAnalytics = ""
 paginate = 10
 
 [params]
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Karol Tinsley"
-	description = "Karol Tinsley's portfolio website"
+	name = "Karol Shirley"
+	description = "Karol Shirley's portfolio website"
 
-	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
 
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
 	custom_css  = ["css/custom.css"]
 
-
 	[params.sidebar]
-		# Replace the avatar with a picture of your own under static/images
 		avatar = "karol.jpg"
-		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "Karol Tinsley"
-		# The icons will be shown if you enter your username
+		bio = "Karol Shirley"
 		twitter = ""
-		github = "ktinsley"
+		github = "knshirley"
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
 		flickr = ""
-		linkedin = "https://ca.linkedin.com/in/karoltinsley"
+		linkedin = "https://ca.linkedin.com/in/karolshirley"
 
 		copyright = [
-			"&copy; Karol Tinsley",
+			"&copy; Karol Shirley",
 			"Design: [HTML5 UP](//html5up.net)"
 		]
-
 
 	[params.about]
 		hide  = false
 		title = "About"
-		content = "My name is Karol and I am one of the co-founders at [56 Studios](http://56studios.ca). 56 Studios is a video game company based out of the [Accelerator Centre](http://acceleratorcentre.com) in Waterloo, Ontario, and we are currently in the process of developing our first game. When I'm not busy trying to run a company, I like to play video games, plan and practice yoga. Oh and I also like cats."
+		content = "I am a versatile software developer with 5+ years experience including Java-based backend applications, DevOps, frontend static websites, and video game development with Unity3D. I have a high focus on quality using test driven development and continuous integration to build robust software systems. I am currently seeking a remote role in the US that is focused on server development and DevOps."
 
 	[params.portfolio]
 		hide  = true
@@ -58,21 +50,8 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
-		content = "For business related inquiries please use the email: contact@56studios.ca. For other emails feel free to use the form below:"
-
-
-		# Since this template is static, the contact form uses www.formspree.io as a
-		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
-		email = "karoltinsley@gmail.com"
+		content = ""
+		email = "<obfuscated>"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -85,11 +64,6 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 0
-
-[[menu.main]]
 	name = "Resume"
-	url  = "/ktinsley-resume.pdf"
-	weight = 10
+	url  = "/kshirley-resume.pdf"
+	weight = 0

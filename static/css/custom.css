@@ -24,24 +24,55 @@
 
 }
 
+body {
+    font-family: 'Quicksand';
+}
+
 #header{
 		background-size: auto, auto 130%;
 }
 
-	#sidebar ul li {
-		list-style: none;
-		font-size: 1.75em;
-		line-height: 1.9em;
-	}
+#sidebar ul li {
+    list-style: none;
+    font-size: 1.75em;
+    line-height: 1.9em;
+}
 
-#sidebar ul li a,
-	#sidebar ul li a a:visited {
-		color: #ffffff;
-        font-family:'moon_flower';
-		text-decoration: none;
-	}
+#sidebar ul li a, #sidebar ul li a a:visited {
+    color: #ffffff;
+    font-family:'moon_flower';
+    border-bottom: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
 
-    #header h1{
-        font-family: 'shorelines';
-        color: #ffffff;
-    }
+a:hover {
+    color: #ffffff !important;
+}
+
+#header h1{
+    font-family: 'shorelines';
+    color: #ffffff;
+    font-size: 2em;
+}
+
+body, input, select, textarea {
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main > section {
+    margin: 3em 0 0 0;
+    padding: 3em 0 0 0;
+}
+
+header.major h2{
+    margin-bottom: 0.5em;
+}
+
+.image.avatar img {
+    border-radius: 8%;
+}
+
+#main {
+    padding-top: 4em;
+}
