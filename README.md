@@ -4,16 +4,14 @@ My portfolio website located at: <a href="http://karolshirley.com" target="_blan
 
 # Requirements
 
-- hugo: `brew install hugo`
+1. <a href="https://gohugo.io/" target="_blank">Hugo</a>
 
-# Running locally
+`brew install hugo`
+`hugo version`
 
-To run the website type in the terminal: `hugo server`.
+# Useful hugo commands
 
-Useful flags: 
-
-- Disable caching: `--ignoreCache`
-
-# Setting up a new theme
-
-`hugo new theme <theme-name>`
+- Create new site in directory: `hugo new site . --force`
+- Run locally: `hugo server`
+    - Disable caching: `--ignoreCache`
+- Create new theme: `hugo new theme <theme-name>`
