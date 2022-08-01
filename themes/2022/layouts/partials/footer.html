@@ -1,0 +1,28 @@
+<footer class="mx-5">
+    <div class="col-6 mx-auto mt-4">
+        <ul>
+            <li>
+                <a href="{{ .Site.Params.baseUrl }}/resume.pdf" target="_blank" tile="Resume">
+                    <i class="bi bi-file-earmark-text-fill"></i>
+                </a>
+            </li>
+            {{ with .Site.Params.social.github }}
+            <li>
+                <a href="//github.com/{{ . }}" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            {{ end }}
+            {{ with .Site.Params.social.linkedin }}
+            <li>
+                <a href="//linkedin.com/in/{{ . }}" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+            {{ end}}
+        </ul>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>

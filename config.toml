@@ -1,3 +1,17 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://karolshirley.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Karol Shirley // Portfolio'
+theme = "2022"
+
+[params]
+    name = "Karol Shirley"
+    avatar = "karol.jpg"
+    summary = "I am a versatile software developer with 7+ years in Java-based backend applications, DevOps, frontend websites, and video game development. Able to work independently and complete features from inception to production, I have a high focus on quality using test driven development and continuous integration to build robust software systems. I am seeking a remote role in the US that is focused on server development and DevOps."
+    resume = "kshirley-resume.pdf"
+
+    [params.contact]
+        formspree_id="mknkazdg"
+
+    [params.social]
+        github = "knshirley"
+        linkedin = "karolshirley"
