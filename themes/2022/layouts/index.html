@@ -1,9 +1,10 @@
 {{ define "main" }}
-<main class="mx-5">
-    <div id="summary" class="col col-md-6 mx-auto justify-content-center">
-        <p>
-            {{ .Site.Params.summary }}
-        </p>
-    </div>
-</main>
+<div id="summary" class="col col-md-6 mx-auto mb-4 justify-content-center">
+    <p>
+        {{ .Site.Params.summary }}
+    </p>
+</div>
+<div id="contact" class="col col-md-6 mx-auto justify-content-center">
+{{ partial "contact.html" . }}
+</div>
 {{ end }}

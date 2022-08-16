@@ -4,8 +4,13 @@
         <div class="col col-md-4 mx-auto">
             <a href="{{ .Site.BaseURL }}">
                 <img src="{{ .Site.Params.avatar }}"
-                     class="img-fluid rounded-circle mx-auto d-block"/>
+                     class="img-fluid rounded-circle mx-auto d-block"
+                     width="50%"
+                />
             </a>
         </div>
     </div>
+
+    {{ partial "nav.html" . }}
+
 </header>
