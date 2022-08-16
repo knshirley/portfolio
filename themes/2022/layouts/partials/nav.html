@@ -1,25 +1,23 @@
-<nav class="mx-5">
-    <div class="col-6 mx-auto mt-4">
-        <ul>
-            <li>
-                <a href="{{ .Site.Params.baseUrl }}/resume.pdf" target="_blank" tile="Resume">
-                    <i class="bi bi-file-earmark-text-fill"></i>
-                </a>
-            </li>
-            {{ with .Site.Params.social.github }}
-            <li>
-                <a href="//github.com/{{ . }}" target="_blank">
-                    <i class="bi bi-github"></i>
-                </a>
-            </li>
-            {{ end }}
-            {{ with .Site.Params.social.linkedin }}
-            <li>
-                <a href="//linkedin.com/in/{{ . }}" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-            </li>
-            {{ end}}
-        </ul>
-    </div>
+<nav>
+    <ul>
+        <li>
+            <a href="{{ .Site.Params.baseUrl }}/resume.pdf" target="_blank" tile="Resume">
+                <i class="bi bi-file-earmark-text-fill"></i>
+            </a>
+        </li>
+        {{ with .Site.Params.social.github }}
+        <li>
+            <a href="//github.com/{{ . }}" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+        </li>
+        {{ end }}
+        {{ with .Site.Params.social.linkedin }}
+        <li>
+            <a href="//linkedin.com/in/{{ . }}" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </li>
+        {{ end}}
+    </ul>
 </nav>
