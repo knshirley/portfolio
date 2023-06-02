@@ -4,10 +4,10 @@ My portfolio website located at: <a href="http://karolshirley.com" target="_blan
 
 # Requirements
 
-1. <a href="https://gohugo.io/" target="_blank">Hugo</a>
+- <a href="https://gohugo.io/" target="_blank">Hugo</a>
 
-- `brew install hugo`
-- `hugo version`
+  - `brew install hugo`
+  - `hugo version`
 
 # Useful hugo commands
 
