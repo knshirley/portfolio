@@ -1,9 +1,14 @@
 {{ define "main" }}
-    <h2>{{ .Params.title }}</h2>
+<section>
+    {{ if isset .Params "title" }}
+    <h2>{{ .Title }}</h2>
+    {{ end }}
     <article>
-    {{ .Content }}
+        {{ .Content }}
     </article>
+
     {{ if .IsHome }}
         {{- partial "contact.html" . -}}
     {{ end }}
+</section>
 {{ end }}
