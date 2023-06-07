@@ -9,11 +9,20 @@ My portfolio website located at: <a href="http://karolshirley.com" target="_blan
   - `brew install hugo`
   - `hugo version`
 
+# Usage
+
+## Development
+
+- `hugo server`
+  - Disable caching: `--ignoreCache`
+  - Enable logging: `--log`
+  - Specify port: `-p, --port int
+
+## Build
+
+`hugo`
+
 # Useful hugo commands
 
 - Create new site in directory: `hugo new site . --force`
-- Run locally: `hugo server`
-    - Disable caching: `--ignoreCache`
-    - Enable logging: `--log`
-    - Specify port: `-p, --port int`
 - Create new theme: `hugo new theme <theme-name>`

@@ -1,1 +1,6 @@
-Single
+{{ define "main" }}
+    <h2>{{ .Params.title }}</h2>
+    <article>
+    {{ .Content }}
+    </article>
+{{ end }}

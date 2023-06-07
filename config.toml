@@ -5,10 +5,6 @@ theme = "2023"
 
 [params]
     name = "Karol Shirley"
-    avatar = "karol.jpg"
-    summary = """I am a versatile software developer with 8+ years in backend applications, DevOps,
-    frontend websites, and video game development. Able to work independently and complete features from inception to production,
-    I have a high focus on quality using test driven development and continuous integration to build robust software systems."""
     resume = "kshirley-resume.pdf"
 
     [params.contact]

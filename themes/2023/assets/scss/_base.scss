@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Kiona';
+  src: url('kiona/Kiona-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$header-font-family: 'Kiona', cursive;
+$font-family: 'Quicksand', Calibri, San-serif;
+$font-color: #6e6869;
+$primary-color: #a15864;
+$secondary-color: #6f272f;
+$input-color: #e4e4e4;

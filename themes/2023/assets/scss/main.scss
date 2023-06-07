@@ -1,0 +1,72 @@
+// Can only use import since hugo uses libsass as it's transpiler
+@import "base";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('../bg.jpg') no-repeat fixed center;
+  color: $font-color;
+  font-family: $font-family;
+}
+
+h1 {
+  text-align: center;
+  font-family: $header-font-family;
+  font-size: 3rem;
+  font-weight: 500;
+  color: $font-color;
+
+  a, a:link, a:active, a:visited {
+    text-decoration: none;
+    color: $font-color;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-family: $header-font-family;
+  font-size: 1.5rem;
+}
+
+nav {
+  text-align: center;
+  font-size: 2.0rem;
+
+  ul {
+    padding: 0;
+
+    li {
+      margin: 0 0.5rem;
+      display: inline;
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+#content {
+  background: rgba(#fff, 1);
+  filter: drop-shadow(1px 0px 5px #000);
+}
+
+.btn {
+  background: $primary-color;
+  border-color: $primary-color;
+}
+
+.btn:hover {
+  background: $secondary-color;
+}
+
+.form-control {
+  background: $input-color;
+}

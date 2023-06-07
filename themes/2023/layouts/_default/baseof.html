@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 {{- partial "head.html" . -}}
-<body class="container my-4">
-<div class="row">
-    <div class="col-3"></div>
-    <div class="col-6 mx-5">
-        <header class="mb-2">
+<body class="container-fluid">
+<div class="row h-100">
+    <div id="content" class="col-6 px-4">
+        <header>
             {{- partial "header.html" . -}}
         </header>
         <main>
             {{- block "main" . }}{{- end }}
         </main>
     </div>
-    <div class="col-3"></div>
+    <div class="col"></div>
 </div>
 {{- partial "foot.html" . -}}
 </body>
