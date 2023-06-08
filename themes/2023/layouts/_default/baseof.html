@@ -2,8 +2,13 @@
 <html lang="en">
 {{- partial "head.html" . -}}
 <body class="container-fluid">
+<div id="mobile" class="row">
+    <div class="col">
+        <img src="{{ .Site.Params.baseUrl }}/bg.jpg" />
+    </div>
+</div>
 <div class="row h-100">
-    <div id="content" class="col-6 px-5">
+    <div id="content" class="col-12 col-sm-6 py-4 px-5">
         <header>
             {{- partial "header.html" . -}}
         </header>
@@ -11,7 +16,6 @@
             {{- block "main" . }}{{- end }}
         </main>
     </div>
-    <div class="col"></div>
 </div>
 {{- partial "foot.html" . -}}
 </body>
