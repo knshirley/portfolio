@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section>
+    {{ if isset .Params "title" }}
+    <h2>{{ .Title }}</h2>
+    {{ end }}
+    <article>
+        {{ .Content }}
+    </article>
+</section>
+{{ end }}
