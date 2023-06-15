@@ -2,13 +2,13 @@
 <html lang="en">
 {{- partial "head.html" . -}}
 <body class="container-fluid">
-<div id="mobile" class="row">
-    <div class="col">
-        <img src="{{ .Site.Params.baseUrl }}/bg.jpg" />
-    </div>
-</div>
 <div class="row h-100">
-    <div id="content" class="col-12 col-sm-6 py-4 px-5">
+    <div id="mobile" class="row">
+        <div class="col">
+            <img src="{{ .Site.Params.baseUrl }}/bg-mobile.jpg"/>
+        </div>
+    </div>
+    <div id="content" class="col-12 col-sm-6  p-4 py-sm-4 px-sm-5">
         <header>
             {{- partial "header.html" . -}}
         </header>

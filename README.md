@@ -26,10 +26,3 @@ My portfolio website located at: <a href="http://karolshirley.com" target="_blan
 
 - Create new site in directory: `hugo new site . --force`
 - Create new theme: `hugo new theme <theme-name>`
-
-
-# TODO
-
-- Add npm/yarn and use bootstrap SASS instead of CSS
-  - clean up SASS file
-- Build out blog

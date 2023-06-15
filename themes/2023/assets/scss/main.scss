@@ -63,7 +63,7 @@ nav {
 }
 
 .form-control {
-  background: $input-color;
+  background: $bg-color;
 }
 
 #content {
@@ -76,3 +76,31 @@ nav {
   display: none;
 }
 
+@include media-breakpoint-down(sm) {
+  body {
+    background: $bg-color;
+  }
+
+  #mobile {
+    padding: 0;
+    margin: 0;
+
+    display: block;
+    width: 100%;
+    height: 200px;
+
+    .col {
+      padding: 0;
+      height: 100%;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  #content {
+    text-align: center;
+  }
+}

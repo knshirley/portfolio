@@ -1,0 +1,10 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "repository": "git@github.com:knshirley/portfolio.git",
+  "author": "Karol Shirley <karolshirley3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
