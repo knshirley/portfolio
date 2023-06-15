@@ -1,69 +1,15 @@
-baseurl = "https://karolshirley.com/"
-languageCode = "en-us"
-title = "Karol Shirley // Portfolio"
-theme = ""
-disqusShortname = "spf13"
-# Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
-# Define how many posts should appear on a site
-paginate = 10
+baseURL = 'https://karolshirley.com'
+languageCode = 'en-us'
+title = 'Karol Shirley // Portfolio'
+theme = "2023"
 
 [params]
-	name = "Karol Shirley"
-	description = "Karol Shirley's portfolio website"
+    name = "Karol Shirley"
+    resume = "kshirley-resume.pdf"
 
-	date_format = "2006-01-02"
+    [params.contact]
+        formspree_id="mknkazdg"
 
-	# Add custom assets with their paths relative to the static folder
-	custom_js   = []
-	custom_css  = ["css/custom.css"]
-
-	[params.sidebar]
-		avatar = "karol.jpg"
-		bio = "Karol Shirley"
-		twitter = ""
-		github = "knshirley"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = "https://ca.linkedin.com/in/karolshirley"
-
-		copyright = [
-			"&copy; Karol Shirley",
-			"Design: [HTML5 UP](//html5up.net)"
-		]
-
-	[params.about]
-		hide  = false
-		title = "About"
-		content = "I am a versatile software developer with 5+ years experience including Java-based backend applications, DevOps, frontend static websites, and video game development with Unity3D. I have a high focus on quality using test driven development and continuous integration to build robust software systems. I am currently seeking a remote role in the US that is focused on server development and DevOps."
-
-	[params.portfolio]
-		hide  = true
-		title = "Recent Work"
-
-	[params.recentposts]
-		hide  = true
-		title = "Recent blog posts"
-
-	[params.contact]
-		hide  = false
-		title = "Get In Touch"
-		content = ""
-		email = "<obfuscated>"
-
-		[params.contact.form]
-			# Set custom strings for the form if your native
-			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
-
-
-# Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "Resume"
-	url  = "/kshirley-resume.pdf"
-	weight = 0
+    [params.social]
+        github = "knshirley"
+        linkedin = "karolshirley"
