@@ -1,13 +1,17 @@
 # Portfolio
 
-My portfolio website located at: <a href="http://karolshirley.com" target="_blank">http://karolshirley.com</a>
+My portfolio website located at: <a href="https://karolshirley.com" target="_blank">https://karolshirley.com</a>
 
 # Requirements
 
 - <a href="https://gohugo.io/" target="_blank">Hugo</a>
-
   - `brew install hugo`
-  - `hugo version`
+- nvm
+  - `brew install nvm`
+- node
+  - `nvm install --lts`
+- yarn
+  - `npm install --global yarn`
 
 # Usage
 
@@ -16,7 +20,7 @@ My portfolio website located at: <a href="http://karolshirley.com" target="_blan
 - `hugo server`
   - Disable caching: `--ignoreCache`
   - Enable logging: `--log`
-  - Specify port: `-p, --port int
+  - Specify port: `-p, --port int`
 
 ## Build
 
